@@ -1,0 +1,7 @@
+# visual studio code 세팅 파일 무시
+.vscode
+.settings
+
+# buildroot 빌드 관련 파일 제외
+output
+dl
