@@ -1,0 +1,1 @@
+CONFIG_BOOTCOMMAND="setenv bootargs root=/dev/mmcblk0p2 rootwait console=tty1 console=ttyAMA0,115200 earlycon=pl011,mmio32,0xfe201000 loglevel=8; fatload mmc 0:1 ${kernel_addr_r} Image; booti ${kernel_addr_r} - ${fdt_addr}"
